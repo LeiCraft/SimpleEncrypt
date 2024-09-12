@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "bun",
+            "name": "Test",
+            "request": "launch",
+            "program": "bun run test",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "bun",
+            "name": "Debug",
+            "request": "launch",
+            "program": "bun run debug",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "simple-encrypt",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "debug": "bun run src/index.ts",
+    "compile": "bun run ./scripts/compile"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/elliptic": "^6.4.18",
+    "@types/prompt": "^1.1.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elliptic": "^6.5.7",
+    "prompt": "^1.3.0"
+  }
+}
