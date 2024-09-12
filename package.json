@@ -6,7 +6,8 @@
   "scripts": {
     "test": "bun test",
     "debug": "bun run src/index.ts",
-    "compile": "bun run ./scripts/compile"
+    "compile": "bun run ./scripts/compile",
+    "patches": "echo 'No patches specified'"
   },
   "devDependencies": {
     "@types/bun": "latest",
