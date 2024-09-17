@@ -1,4 +1,4 @@
-# simpleencrypt
+# SimplEencrypt
 
 To install dependencies:
 
